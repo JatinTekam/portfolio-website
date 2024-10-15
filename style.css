@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000510;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    /* overflow: hidden; */
+}
+header{
+    width: 80%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: #000510;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    /* background-color: white; */
+}
+header .name-box1 .myname{
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+header ul li{
+    list-style: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+header  ul li:hover{
+    color: #4FCBB0;
+}
+header  ul li::after{
+    content: "";
+    width: 0%;
+    height: 3%;
+    position: absolute;
+    background-color: #4FCBB0;
+    bottom: 15px;
+    left: 0;
+    transition: all 0.4s;
+}
+header  ul li:hover::after{
+    width: 100%;
+}
+header  ul #icon{
+    display: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main .main-box{
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    display: flex;
+    overflow: hidden;
+    /* background-color: #4FCBB0; */
+}
+main .main-box .allInfo{
+    width: 60%;
+}
+main .main-box .name {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+main .main-box .name h3,#sub,p{
+    color: #CCD6F6;
+}
+main .main-box .name h1{
+    font-weight: 400;
+    font-size: 44px;
+    color: #CCD6F6;
+}
+main .main-box .name p{
+    font-size: 18px;
+    margin-top: 0.6rem;
+}
+main .main-box .icon a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+main .main-box .icon i{
+    color: #CCD6F6;
+    font-size: 40px;
+    
+}
+.change-my-color{
+    fill: #CCD6F6;
+}
+main .main-box .icon i:hover{
+    cursor: pointer;
+    color: #4FCBB0;
+}
+#leetcode:hover{
+    cursor: pointer;
+    fill: #4FCBB0;
+}
+.allInfo button{
+    margin-top: 20px;
+    width: 200px;
+    padding: 16px 14px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #CCD6F6;
+    border-radius: 12px;
+    border-color: #4FCBB0;
+    cursor: pointer;
+}
+.allInfo button:hover{
+    background-color: #ccd6f621;
+}
+main .main-box .img-box{
+    width: 350px;
+    height: 350px;
+    
+    position: relative;
+   
+    animation: bounce 3.5s infinite ease-in alternate-reverse;
+}
+@keyframes bounce {
+
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+    
+}
+main .main-box .img-box img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    object-fit: cover;
+    transition: all 0.5s linear;
+    transform: scale(2);
+}
+main .main-box .img-box img:hover{
+    transform: scale(1);
+}
+main #section1{
+ width: 100%;
+ height: 400px;
+ /* background-color: beige; */
+ padding-left: 100px;
+}
+main #section1 h2{
+    color: #4FCBB0;
+    position: relative;
+    font-size: 30px;
+}
+main #section1 h2::after{
+    content: "";
+    align-self: center;
+    background-color: #233554;
+    content: "";
+    display: block;
+    height: 1px;
+    margin-left: 20px;
+    position: relative;
+    top: -12px;
+    right: -300px;
+    width: 60%;
+}
+
+
+
+
+/*  Media Queries  */
+
+
+@media (max-width:1400px) {
+
+    main .main-box .name {
+        /* padding-left: 50px; */
+    }
+
+    
+}
+@media (max-width:1370px) {
+
+    main .main-box .name h2{
+        font-size: 21px;
+
+    } 
+}
+@media (max-width:1370px) {
+
+    main .main-box .name h2{
+        font-size: 21px;
+
+    } 
+}
+@media (max-width:1225px) {
+
+    main .main-box .name h1{
+        font-size: 40px;
+    }
+
+    main .main-box .name h2{
+        font-size: 20px;
+
+    } 
+}
+@media (max-width:1200px) {
+
+    main .main-box .name h1{
+        font-size: 40px;
+    }
+
+    main .main-box .name h2{
+        font-size: 19px;
+
+    } 
+}
+@media (max-width:1200px) {
+
+    main .main-box .name h1{
+        font-size: 40px;
+    }
+
+    main .main-box .name h2{
+        font-size: 19px;
+        line-height: 25px;
+
+    } 
+}
