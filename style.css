@@ -897,3 +897,35 @@ footer p{
         width: 60vw;
      }
 }
+@media (max-width:400px){
+
+    main #section2{
+        height: 700px;
+    }
+    main #section1{
+        height: 1000px;
+    }
+    main #section1 .edu .pg{
+        height: 315px;
+    }
+    main #section1 .edu .pg .points{
+        margin-top: 0;
+    }
+    main #section1 .edu .pg .points li{
+        
+        font-size: 14px;
+    }
+    main #section3 .allprojects .flow h6{
+        font-size: 12px;
+    }
+    main #section3 .allprojects .flow p{
+        font-size: 10px;
+    }
+    main #section3 .allprojects .flow figure img{
+        width: 21px;
+    }
+    main .main-box{
+        height: 1050px;
+    }
+
+}
