@@ -40,3 +40,17 @@ t1.from(".img-box img",{
     scale:1
 })
 
+gsap.from("#section1 .edu .ug",{
+     x:-900,
+     delay:1,
+     duration:1.5,
+     opacity:0,
+     scrollTrigger:"#section1 .edu .ug"
+})
+gsap.from("#section1 .edu .pg",{
+     x:900,
+     delay:1,
+     duration:1.5,
+     opacity:0,
+     scrollTrigger:"#section1 .edu .ug"
+})
