@@ -1,6 +1,6 @@
 export const Information = () => {
   return (
-    <ul className="text-[#6D6D6E] list-disc pb-[30px] pl-4">
+    <ul className="text-[#6D6D6E] list-disc pb-[30px] pl-4 text-sm md:text-lg">
       <li>
         I Am <span className="text-white">Java Developer </span>&
         <span className="text-white"> Front End Developer </span> Based In 

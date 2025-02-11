@@ -12,12 +12,12 @@ export const HeroSection=()=>{
         <section className="flex flex-end text-[#6D6D6E] pt-[100px] pb-[30px]  m-auto">
             <div className=" w-full flex items-center justify-between">
             <div>  
-           <h1 className="text-3xl pb-1 text-white">
+           <h1 className="text-xl pb-1 text-white md:text-3xl">
             Jatin Tekam
            </h1>
            </div>
            <div>
-           <figure className="flex gap-5 text-2xl">
+           <figure className="flex gap-5 text-xl  md:text-2xl">
             <a href="https://www.linkedin.com/in/jatin-tekam/" className="hover:text-white" target="_blank" rel="noopener noreferrer"><SiLinkedin className="cursor-pointer"/></a>
             <a href="https://github.com/jatinTekam" className="hover:text-white"  > <FaGithub className="cursor-pointer"/></a>
             <a href="mailto:tekamjatin@gmail.com" className="hover:text-white" ><IoMdMail className="cursor-pointer"/></a>

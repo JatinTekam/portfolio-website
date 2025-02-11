@@ -6,7 +6,7 @@ import { Learning } from './Section/Learning'
 
 function App() {
   return (
-    <main className='bg-[#030712] h-[800px] m-auto border-white font-[MonaSans] px-[180px] pt-7'>
+    <main className='bg-[#030712] h-[100%] m-auto border-white font-[MonaSans] px-[30px] pt-7 md:px-[150px] sm:px-[90px]'>
       <HeroSection/>
       <Information/>
       <ProjectSection/>

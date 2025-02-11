@@ -2,7 +2,7 @@ export const Learning=()=>{
 
 
     return(
-        <section>
+        <section className="pb-[30px]">
              <h1 className="text-white text-2xl pb-4">My Insights</h1>
 
             <div className="text-white flex gap-2 flex-wrap mb-2">
