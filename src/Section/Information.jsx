@@ -12,7 +12,7 @@ export const Information = () => {
         <span className="text-white"> learning new things</span> in these fields.
       </li>
       <li>Currently Exploring <span className="text-white">GenAI</span>, And <span className="text-white">Web Performance.</span></li>
-      <li><span className="text-white">tekamjatin@gamil.com.</span></li>
+      <li><span className="text-white">tekamjatin@gmail.com.</span></li>
     </ul>
   );
 };
