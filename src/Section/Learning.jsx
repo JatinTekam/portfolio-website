@@ -10,6 +10,9 @@ export const Learning=()=>{
                     Java
                 </p>
                 <p className="border p-2 rounded-xl">
+                    OOPS
+                </p>
+                <p className="border p-2 rounded-xl">
                     HTML
                 </p>
                 <p className="border p-2 rounded-xl">
