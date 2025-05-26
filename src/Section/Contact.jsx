@@ -51,6 +51,7 @@ const Contact = () => {
                 placeholder="Enter Your Name"
                 name="name"
                 required
+                autoComplete="false"
               />
               and i have a{" "}
               <input
@@ -59,6 +60,7 @@ const Contact = () => {
                 placeholder="Project And Website"
                 name="message"
                 required
+                autoComplete="false"
               />{" "}
               that need help.You can reach me at{" "}
               <input
@@ -67,6 +69,7 @@ const Contact = () => {
                 name="email"
                 placeholder="Your Email Address"
                 required
+                autoComplete="false"
               />
               to get things started.
               <div className="mt-3 text-xl ">

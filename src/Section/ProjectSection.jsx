@@ -1,13 +1,10 @@
-import { useEffect } from "react";
-import img1 from "../utils/images/img1.png";
-import video from "../utils/videos/v1.mp4";
+
 import html from "../utils/images/html-min.png";
 import css from "../utils/images/css-min.png";
 import js from "../utils/images/js-min.png";
 import react from "../utils/images/React-icon.svg (1).png";
 import tailwind from "../utils/images/tailwind.png";
-import weather from "../utils/images/weather.png";
-import portfolioimg from "../utils/images/portfolio.png";
+
 import gsap from "../utils/images/gsap.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
