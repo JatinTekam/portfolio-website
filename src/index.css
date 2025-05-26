@@ -9,3 +9,100 @@ html,body{
     height: 100%;
     background-color:#030712 ;
 }
+
+.shadow{
+box-shadow: 0px 0px 30px black;
+
+}
+
+
+@media (max-width:1660px) {
+    .mobile{
+        padding-left: 220px;
+    }
+    .techstack{
+        right: 120px;
+    }
+    .image{
+        left:-550px;
+    }
+}
+
+@media (max-width:1130px) {
+
+    .mobile{
+       padding-left: 20px;
+    }
+    .mobile-contact{
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .contact-h1{
+        padding-top: 3px;
+    }
+
+}
+
+@media (max-width:1002px) {
+    .name{
+        right:100px
+    }
+    .name2{
+        right:30px
+    }
+    .section{
+        padding: 0 30px 0 30px;
+    }
+    .section-project{
+        padding: 0;
+    }
+    .project-h1{
+        margin-left: 40px;
+    }
+    .mobile-responsive{
+        align-items: center;
+        padding-left: 0px;
+    }
+    .mobile-width{
+        width: 70vw;
+    }
+}
+
+@media (max-width:560px) {
+
+    .name{
+        font-size: 1.6rem;
+    }
+    .name2{
+        font-size: 1.2rem;
+    }
+
+    .img{
+        width: 270px;
+    }
+
+
+}
+
+@media (max-width:450px) {
+
+    .name{
+        font-size: 5vw;
+    }
+    .name2{
+        font-size: 4vw;
+    }
+
+}
+@media (max-width:400px) {
+
+    .name{
+        font-size: 7vw;
+        right:40px
+    }
+    .name2{
+        font-size: 4vw;
+        right:12px
+    }
+
+}
