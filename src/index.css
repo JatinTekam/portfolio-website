@@ -92,6 +92,9 @@ box-shadow: 0px 0px 30px black;
     .name2{
         font-size: 4vw;
     }
+    .mobile-width{
+        width: 90vw;
+    }
 
 }
 @media (max-width:400px) {

@@ -21,7 +21,7 @@ export const ProjectSection = () => {
       <div className="w-full mobile">
         <div className="top-box-project w-full flex flex-wrap gap-5 mobile-responsive">
           <div className="flex">
-            <div className=" w-[35vw] h-60  bg-gradient-to-b from-blue-500 text-white rounded-xl p-5 mobile-width">
+            <div className=" w-[35vw] bg-gradient-to-b from-blue-500 text-white rounded-xl p-5 mobile-width">
               <h1 className=" text-3xl">
                 Full-stack e-commerce application
               </h1>
@@ -179,7 +179,7 @@ export const ProjectSection = () => {
                 </div>
                <div className="flex items-center px-2 py-1 rounded-md bg-white">
                 <a
-                  href="https://github.com/JatinTekam/full-stack-e-commerce"
+                  href="https://github.com/JatinTekam/portfolio-website"
                   className=" cursor-pointer"
                   >
                   <div className="w-7 flex mr-2">
@@ -187,7 +187,7 @@ export const ProjectSection = () => {
                   </div>
                 </a>
                 <div className="text-2xl text-black">
-                  <a href="https://riveshopping.netlify.app/"
+                  <a href="https://jatin-tekam.netlify.app/"
                   className="cursor-pointer"
                   >
                       <HiOutlineExternalLink/>
