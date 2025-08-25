@@ -1,8 +1,18 @@
-# React + Vite
+Hi there, I'm Jatin Tekam
+I'm a passionate Software Developer and Front-End Developer focused on building seamless user experiences. Welcome to my GitHub profile!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About Me
 
-Currently, two official plugins are available:
+- 🌍 Based in Nagpur
+- 💻 Proficient in creating responsive and interactive web applications
+- 🎨 Always experimenting with new technologies and design patterns
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 📫 Get in Touch
+
+- **Email**: [tekamjatin@gmail.com](tekamjatin@gmail.com)
+- **LinkedIn**:[Jatin Tekam](https://linkedin.com/in/jatin-tekam).
+
+## 💼 Resume
+
+Feel free to check out my resume: [My Resume](https://drive.google.com/file/d/1za76Wm06bIwdxyGZBLyyK9YStE3umu06/view?usp=drive_link)
