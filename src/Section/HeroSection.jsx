@@ -39,7 +39,7 @@ export const HeroSection=()=>{
 
     return(
         <>
-        <section className="flex flex-end text-[#6D6D6E] pt-[50px] pb-[30px]  m-auto">
+        <section className="flex  flex-end text-[#6D6D6E] pt-[50px] pb-[30px]  m-auto">
           <div className="w-screen  flex flex-col items-center pt-10 pb-10">
           <div className="w-100 h-90 rounded-xl  overflow-hidden  bg-black img ">
            <img src={img} alt="" className="w-full h-full object-cover opacity-65 "/>

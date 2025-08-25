@@ -13,6 +13,9 @@ import img12 from "../utils/images/redux.png"
 import img13 from "../utils/images/figma-min.png"
 import img14 from "../utils/images/postman.png"
 import img15 from "../utils/images/gsap.png"
+import img16 from "../utils/images/Spring.png";
+import img17 from "../utils/images/Docker.png";
+
 import { useGSAP } from "@gsap/react"
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -38,13 +41,13 @@ export const Learning=()=>{
     })
 
 
-    const images=[img1,img2,img3,img4,,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15];
+    const images=[img1,img2,img3,img4,,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17];
     
 
 
     return(
         <section className="w-full px-80 mb-6 section">
-             <h1 className="text-white text-2xl pb-4">My Insights</h1>
+             <h1 className="text-white text-3xl pb-4">My Insights</h1>
 
              <div className="skill">
                 <div className=" skill-slide  flex flex-wrap gap-2  ">
